@@ -1,0 +1,8 @@
+version: "3"
+services:
+  cloud-native-go:
+    build: .
+    container_name: "cloud_native_go"
+    image: "cloud-native-go:1.0.0-alpine"
+    ports:
+      - "8000:8000"
